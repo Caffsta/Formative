@@ -1,0 +1,8 @@
+name: form
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-tidyverse
+  - r-base
+prefix: /home/cathy/miniconda3/envs/form
