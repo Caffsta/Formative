@@ -4,8 +4,8 @@
 library(tidyverse)
 
 #Import datasets
-BMI <- read.csv("BMX_D.csv")
-Participants<- read.csv("Participant_ID.csv")
+BMI <- read.csv("Data/Original/BMX_D.csv")
+Participants<- read.csv("Data/Original/participant_ID.csv")
 
 #Ensure ID is the same name
 BMI <- dplyr::rename(BMI, SEQNO = SEQN)

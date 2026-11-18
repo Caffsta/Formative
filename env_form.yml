@@ -5,4 +5,5 @@ channels:
 dependencies:
   - r-tidyverse
   - r-base
+  - r-haven
 prefix: /home/cathy/miniconda3/envs/form
